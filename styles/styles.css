@@ -45,7 +45,8 @@ body::-webkit-scrollbar-thumb {
 .content{
     border: 1px solid white;
     background-color: white;
-    padding: 10%;
+    padding: 0 10% 10% 10%;
+    padding-top: 50px;
     margin-top: 70px;
     border-radius: 30px;
     transition: 0.3s;
