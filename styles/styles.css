@@ -58,17 +58,18 @@ body::-webkit-scrollbar-thumb {
         width: 600px;
         margin: 70px auto auto auto;
     }
-    .calculator{
-        border: 1px solid black;
-    }
+
 }
 
 /* calculator */
 .calculator{
     border-radius: 20px;
     background-color: #eeeeee;
-    padding: 10px;
+    padding: 30px;
     transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 
@@ -87,17 +88,24 @@ body::-webkit-scrollbar-thumb {
 
 .field{
     width: 80px;
-    margin-left: 10px;
+    margin-left: 0px;
     border-radius: 5px;
     border: 2px solid #cecece;
 }
 
+.btnContainer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .button{
     border: none;
-    font-size: large;
-    padding: 20px;
-margin: auto;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
     border-radius: 5px;
     background-color: rgb(111, 184, 111);
-    font-family: Montserrat-Regular,'Montserrat Regular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Montserrat-Bold,'Montserrat Bold','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
