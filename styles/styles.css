@@ -44,20 +44,60 @@ body::-webkit-scrollbar-thumb {
 /* main content of the page */
 .content{
     border: 1px solid white;
+    background-color: white;
     padding: 10%;
     margin-top: 70px;
     border-radius: 30px;
     transition: 0.3s;
-}
-
-.content:hover{
-    background-color: white;
     color: black;
 }
+
 
 @media (min-width: 800px) {
     .content{
         width: 600px;
         margin: 70px auto auto auto;
     }
+    .calculator{
+        border: 1px solid black;
+    }
+}
+
+/* calculator */
+.calculator{
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+
+
+.entry{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/*
+.input{
+    background-color: bisque;
+} */
+
+.field{
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #cecece;
+}
+
+.button{
+    border: none;
+    font-size: large;
+    padding: 20px;
+margin: auto;
+    border-radius: 5px;
+    background-color: rgb(111, 184, 111);
+    font-family: Montserrat-Regular,'Montserrat Regular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
