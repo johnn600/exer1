@@ -3,6 +3,13 @@ function displaySum() {
     let secondNum = Number(document.getElementById('secondNum').value)
   
     let total = firstNum + secondNum;
-    document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+    document.getElementById("answerAdd").innerHTML = `${total}` ;
   }
+
+  function displayDifference() {
+    let firstNum = Number(document.getElementById('firstNum').value)
+    let secondNum = Number(document.getElementById('secondNum').value)
   
+    let total = firstNum - secondNum;
+    document.getElementById("answerSubtract").innerHTML = `${total}` ;
+  }

@@ -37,9 +37,19 @@
         <div class="input">Second number: <input type="text" class="field" id="secondNum"></div>
       </div>
       
-      <p>Therefore, the sum of the two of those numbers is: <span id= "answer">(placeholder for the answer)</span></p>
-      <div class="btnContainer">
-        <button type="button" class="button" id="sumButton" onclick="displaySum()">ADD</button>
+      
+      
+      <div class="container">
+        <div class="result">
+          <span class="answer" id="answerAdd">---</span>
+          <button type="button" class="button" id="sumButton" onclick="displaySum()">ADD</button>
+        </div>
+
+        <div class="result">
+          <span class="answer" id="answerSubtract">---</span>
+          <button type="button" class="button" id="minusButton" onclick="displayDifference()">SUBTRACT</button>
+        </div>
+
       </div>
     </div>
   </div>

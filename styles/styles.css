@@ -94,14 +94,16 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid #cecece;
 }
 
-.btnContainer{
+.container{
     margin: 0 auto;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 
 .button{
     border: none;
+    margin: 0;
     font-size: 15px;
     cursor: pointer;
     padding: 10px;
@@ -109,4 +111,31 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: rgb(111, 184, 111);
     font-family: Montserrat-Bold,'Montserrat Bold','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
 }
+
+.button:hover{
+    background-color: rgb(97, 161, 97);
+}
+
+/* card for displaying answer */
+.result{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result>span{
+    text-align: center;
+    color: #181818;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
